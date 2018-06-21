@@ -2,6 +2,9 @@ function setup() {
 	background(200);
 	createCanvas(800, 800);
 	frameRate(60);
+	fill(0);
+	textSize(12);
+	text("Click and drag; any key to clear", width/2, 20);
 }
 
 function squareFun() {

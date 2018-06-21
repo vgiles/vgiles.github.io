@@ -6,8 +6,8 @@ function setup() {
 
 function squareFun() {
 	var fillR, fillG, fillB, fillA, mousePosX, mousePosY;
-	var v1 = createVector(40, 50);
-	var v2 = createVector (30, 50);
+	// var v1 = createVector(40, 50);
+	// var v2 = createVector (30, 50);
 	mousePosX = mouseX;
 	mousePosY = mouseY;
 	fillR = mousePosX % 200 + 50;
@@ -15,7 +15,7 @@ function squareFun() {
 	fillB = mousePosX % 150;
 	fillA = mousePosY % 100;
 	fill(fillR, fillG, fillB, fillA);
-	rect(v1.x, v1.y, mouseY / TAU / 8, mouseX * PI / 8);
+	rect(mousePosX, mousePosY, mouseY / TAU / 8, mouseX * PI / 8);
 }
 
 function draw() {

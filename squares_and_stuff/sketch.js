@@ -32,4 +32,7 @@ function mouseDragged() {
 
 function keyPressed() {
 	background(255);
+	fill(0);
+	textSize(12);
+	text("Click and drag; any key to clear", width/2, 20);
 }

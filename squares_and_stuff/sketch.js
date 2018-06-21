@@ -18,7 +18,7 @@ function squareFun() {
 	fillB = mousePosX % 150;
 	fillA = mousePosY % 100;
 	fill(fillR, fillG, fillB, fillA);
-	rect(mousePosX, mousePosY, mouseY / TAU / 8, mouseX * PI / 8);
+	rect(mousePosX, mousePosY, mouseY / TAU / 4, mouseX * PI / 8);
 }
 
 function draw() {
@@ -28,6 +28,10 @@ function draw() {
 
 function mouseDragged() {
 	squareFun();
+}
+
+function touchMoved() {
+	squareFun();	
 }
 
 function keyPressed() {

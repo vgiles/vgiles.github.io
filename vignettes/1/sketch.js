@@ -1,3 +1,7 @@
+/* Vignette #1 for any instrument.
+Vincent Giles, 2018
+*/
+
 let x = 40;
 let y = 40;
 let composer = "Vincent Giles, 2018";
@@ -23,8 +27,8 @@ function composer_display() {
   textSize(20);
   text(composer, width/2+20, 165);
   textSize(12);
-  var text_instr = "Instructions: assume a clef; improvise gesturally/spacially by the indicated gestures";
-  text(text_instr, width/2, 12);
+  var text_instr = "Instructions: Use any instrument, assume any clef; improvise gesturally/spacially by the indicated animation.";
+  text(text_instr, width/3, 12);
 }
 
 function setup() {

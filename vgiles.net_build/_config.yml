@@ -24,7 +24,7 @@ url: "http://vgiles.github.io" # the base hostname & protocol for your site, e.g
 
 # Build settings
 markdown: kramdown
-remote_theme: http://www.github.com/alexcarpenter/butane-jekyll-theme
+theme: alembic-jekyll-theme
 plugins:
   - jekyll-feed
 

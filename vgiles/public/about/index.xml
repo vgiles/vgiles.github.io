@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Abouts on Vincent Giles: Composer</title>
+    <link>http://experimental-vegan.com/about/</link>
+    <description>Recent content in Abouts on Vincent Giles: Composer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://experimental-vegan.com/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>http://experimental-vegan.com/about/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://experimental-vegan.com/about/about/</guid>
+      <description>Vincent Giles » Composer &amp;amp; Sonic Tinkerer **You are listening to an excerpt from _Post Hoc Ergo Propter Hoc_ (2016), scroll down to switch it off. **
+I was born in the green and leafy outer-eastern suburbs of Melbourne in 1985, and spent my early years in the middle of alpine forest in north-east Victoria. Now I spend my time as a composer: a tinkerer with acoustic and electronic sound in the context of concert music, electronic music, installation, and performance.</description>
+    </item>
+    
+  </channel>
+</rss>

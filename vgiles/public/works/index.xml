@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Works on Vincent Giles: Composer</title>
+    <link>http://experimental-vegan.com/works/</link>
+    <description>Recent content in Works on Vincent Giles: Composer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://experimental-vegan.com/works/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Works</title>
+      <link>http://experimental-vegan.com/works/works/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://experimental-vegan.com/works/works/</guid>
+      <description>Works List » Vincent Giles This page contains a list of works arranged by instrumentation. If the score is not linked herein, please contact me to obtain. vin [@] vgiles.net
+There are a number of works that I have not included here, either because I do not wish them to be performed, or they form part of long-term, fast-output projects. A more complete list, arranged by year, can be found here [updated August 2016], but please contact me about anything on that list that is not included on this page.</description>
+    </item>
+    
+  </channel>
+</rss>

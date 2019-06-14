@@ -1,0 +1,3 @@
+[submodule "vgiles/themes/minimal"]
+	path = vgiles/themes/minimal
+	url = https://github.com/calintat/minimal.git

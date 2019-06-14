@@ -1,3 +1,57 @@
-baseURL = "http://example.org/"
+baseURL = "http://experimental-vegan.com"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Vincent Giles: Composer"
+theme = "minimal"
+
+[params]
+    author = "Vincent Giles"
+    description = "Website of composer Vincent Giles"
+    githubUsername = "vgiles"
+    accent = "black"
+    showBorder = true
+    backgroundColor = "grey"
+    font = "Fira Sans" # should match the name on Google Fonts!
+    highlight = true
+    highlightStyle = "solarized-dark"
+    highlightLanguages = ["go", "haskell", "kotlin", "scala", "swift"]
+
+[[menu.main]]
+    url = "/"
+    name = "Home"
+    weight = 1
+
+[[menu.main]]
+    url = "/about/"
+    name = "About"
+    weight = 2
+
+[[menu.main]]
+    url = "/cds/"
+    name = "CDs"
+    weight = 3
+
+[[menu.main]]
+    url = "/works/"
+    name = "Works"
+    weight = 4
+
+[[menu.main]]
+    url = "/teaching/"
+    name = "Teaching"
+    weight = 5
+
+# Social icons to be shown on the right-hand side of the navigation bar
+# The "name" field should match the name of the icon to be used
+# The list of available icons can be found at http://fontawesome.io/icons/
+
+[[menu.icon]]
+    url = "mailto:vin@vgiles.net"
+    name = "envelope-o"
+    weight = 1
+
+[[menu.icon]]
+    url = "https://github.com/vgiles/"
+    name = "github"
+    weight = 2
+
+

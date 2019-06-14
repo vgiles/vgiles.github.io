@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cds on Vincent Giles: Composer</title>
+    <link>http://experimental-vegan.com/cds/</link>
+    <description>Recent content in Cds on Vincent Giles: Composer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="http://experimental-vegan.com/cds/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CD Releases</title>
+      <link>http://experimental-vegan.com/cds/cds/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://experimental-vegan.com/cds/cds/</guid>
+      <description>Releases – Other » Vincent Giles Click here for personal releases (bandcamp), otherwise use the menu above.
+Monash University Flute Ensemble: Fantasie Australis (CD)
+Two of my works: Fantasie Australis and Fragments appear on this newly released CD from Move Records. I think this is an amazing achievement and the result is superb. It&amp;rsquo;s a very fine CD and there is some great playing on it! Many thanks to Peter and the MUFE.</description>
+    </item>
+    
+  </channel>
+</rss>

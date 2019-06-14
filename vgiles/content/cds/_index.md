@@ -1,8 +1,9 @@
 ---
 title: "CD Releases"
+date: 2019-06-06
+type: "new"
+layout: "single"
 ---
-# Releases – Other » Vincent Giles
-
 [Click here for personal releases (bandcamp), otherwise use the menu above.][1]
 
 [Monash University Flute Ensemble: Fantasie Australis][2] (CD)

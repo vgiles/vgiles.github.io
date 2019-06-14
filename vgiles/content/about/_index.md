@@ -1,12 +1,9 @@
 ---
 title: "About"
+date: 2019-06-06
 type: "new"
-layout: "project"
+layout: "single"
 ---
-# Vincent Giles » Composer
-
-**You are listening to an excerpt from [_Post Hoc Ergo Propter Hoc][1]_ (2016), scroll down to switch it off. **
-
 I was born in the green and leafy outer-eastern suburbs of Melbourne in 1985, and spent my early years in the middle of alpine forest in north-east Victoria. Now I spend my time as a composer: a tinkerer with acoustic and electronic sound in the context of concert music, electronic music, installation, and performance. Whatever form my work takes, it is usually influenced by the natural world, science and mathematics, and self-imposed compositional limitations; I see music as a type of perception and manifestation of already-existent natural phenomena and relationships, in the same way that mathematics is a notation of natural relationships and so attempt to express the most elegant form of the observed relationships. Prior to studying composition I was a bass player who grew disgruntled with the culturally-defined stylistic limitations of the instrument, and, having worked primarily in jazz and popular musics, the adherence to traditional notions of pitch, rhythm, and form that result in severe aesthetic and creative limitations – not the desirable kind!
 
 _"Vincent Giles' new piece, IMPULSE gave a new 21st century voice to field recordings, mostly gathered from his recent trip to Europe, flourishing and melding in a unsettled but vibrant electroacoustic language."_  

@@ -1,15 +1,15 @@
 baseURL = "http://experimental-vegan.com"
 languageCode = "en-us"
-title = "Vincent Giles: Composer"
+title = "Vincent Giles"
 theme = "minimal"
 
 [params]
     author = "Vincent Giles"
-    description = "Website of composer Vincent Giles"
+    description = "Composer : Performer : Scholar"
     githubUsername = "vgiles"
     accent = "black"
     showBorder = true
-    backgroundColor = "grey"
+    backgroundColor = "cream"
     font = "Fira Sans" # should match the name on Google Fonts!
     highlight = true
     highlightStyle = "solarized-dark"
@@ -26,19 +26,24 @@ theme = "minimal"
     weight = 2
 
 [[menu.main]]
+    url = "/statement/"
+    name = "Statement & Manifesto"
+    weight = 3
+
+[[menu.main]]
     url = "/cds/"
     name = "CDs"
-    weight = 3
+    weight = 4
 
 [[menu.main]]
     url = "/works/"
     name = "Works"
-    weight = 4
+    weight = 5
 
 [[menu.main]]
     url = "/teaching/"
     name = "Teaching"
-    weight = 5
+    weight = 6
 
 # Social icons to be shown on the right-hand side of the navigation bar
 # The "name" field should match the name of the icon to be used

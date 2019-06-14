@@ -1,9 +1,9 @@
-
 ---
 title: "Teaching"
+date: 2019-06-06
+type: "new"
+layout: "single"
 ---
-# Teaching » Vincent Giles
-
 I teach music making across the following disciplines, many of which are interrelated.
 
 * Music composition: 

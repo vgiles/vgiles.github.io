@@ -1,7 +1,9 @@
 ---
 title: "About"
+type: "new"
+layout: "project"
 ---
-# Vincent Giles » Composer & Sonic Tinkerer
+# Vincent Giles » Composer
 
 **You are listening to an excerpt from [_Post Hoc Ergo Propter Hoc][1]_ (2016), scroll down to switch it off. **
 

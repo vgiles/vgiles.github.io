@@ -11,7 +11,7 @@ macOS comes with the Python programming language pre-installed. The version is g
 
 In this screenshot you will see the location of the default macOS terminal application. Applications -> Utilities -> Terminal.app. You should open this.
 
-![Screenshot of Terminal Location](ss1.png)
+![Screenshot of Terminal Location](ss3.png)
 
 The next part is to type `python --version` into the terminal and press return. You should see something like the next screenshot (with some minor differences in display).
 
@@ -23,7 +23,7 @@ You can close the terminal.
 
 ### Step 2: Run a test server
 
-![Screenshot of Opening a Terminal at Folder](ss3.png)
+![Screenshot of Opening a Terminal at Folder](ss1.png)
 
 The above screenshot shows the right-click context menu that you use to open a folder from the Finder app in the Terminal app. 
 Right-click on the folder -> Services -> Open Terminal at Folder. 

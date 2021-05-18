@@ -1,0 +1,28 @@
+<h1 id="running-a-python-test-server-on-macos">Running a Python test server on macOS</h1>
+<h2 id="macos-10.10---10.15">macOS 10.10 - 10.15</h2>
+<p><strong>ymmv for macOS 11</strong> <em>Document version 0.1</em> <strong><em>Vincent Giles</em></strong></p>
+<h3 id="introduction">Introduction</h3>
+<p>macOS comes with the Python programming language pre-installed. The version is generally python2, and the more recent python3 will need to be installed separately, but for the purposes of testing Twine games, p2 is perfectly fine. You will need the macOS terminal app, or some other command-line app such as iTerm. For this walkthrough, I will use the default terminal, but be aware that it may look a little bit different. If you happen to run Linux or Unix as your OS, the instructions are functionally equivalent, but you probably already know how to do this. :)</p>
+<h3 id="step-1-confirm-that-python-is-installed-and-functional">Step 1: confirm that Python is installed and functional</h3>
+<p>In this screenshot you will see the location of the default macOS terminal application. Applications -&gt; Utilities -&gt; Terminal.app. You should open this.</p>
+<figure>
+<img src="ss1.png" alt="Screenshot of Terminal Location" /><figcaption aria-hidden="true">Screenshot of Terminal Location</figcaption>
+</figure>
+<p>The next part is to type <code>python --version</code> into the terminal and press return. You should see something like the next screenshot (with some minor differences in display).</p>
+<figure>
+<img src="ss2.png" alt="Screenshot of Python Version" /><figcaption aria-hidden="true">Screenshot of Python Version</figcaption>
+</figure>
+<p>All going according to play, you should have version 2.x.x installed. If it shows version 3.x.x then that is fine too, but I will include a slightly different command for testing.</p>
+<p>You can close the terminal.</p>
+<h3 id="step-2-run-a-test-server">Step 2: Run a test server</h3>
+<figure>
+<img src="ss3.png" alt="Screenshot of Opening a Terminal at Folder" /><figcaption aria-hidden="true">Screenshot of Opening a Terminal at Folder</figcaption>
+</figure>
+<p>The above screenshot shows the right-click context menu that you use to open a folder from the Finder app in the Terminal app. Right-click on the folder -&gt; Services -&gt; Open Terminal at Folder.</p>
+<p>This will open the Terminal again but this time your Twine directory will be the operating directory. From here, type <code>python -m SimpleHTTPServer</code> and press return. This will return something like: <code>Serving HTTP on 0.0.0.0 port 8000 ...</code> It is important that you leave the terminal open while serving.</p>
+<h3 id="step-3-test-your-twine">Step 3: Test your Twine</h3>
+<p>All going to plan, if you have your Twine index.html in the same folder, you can now open a web browser and type <code>localhost:8000</code> into the URL bar, and press enter. You should see your twine.</p>
+<h3 id="step-4-to-stop-serving">Step 4: To stop serving</h3>
+<p>Once you are done testing, go back to the terminal and press <code>control+c</code> (not CMD) to end the web server. You may see a heap of GET requests and other things, those are nothing to worry about. You can quit the terminal once it has stopped the server running. Note: do NOT leave the server running as it poses a very minor risk to your system security.</p>
+<h3 id="for-python-3">For Python 3</h3>
+<p>If by chance you have Python3 installed, or install it yourself, the instructions are the same except the server command is <code>python3 -m http.server</code> or <code>python -m http.server</code>, see which works for you.</p>
